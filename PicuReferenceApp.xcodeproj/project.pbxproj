@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */; };
 		FC40F82D1820A09700781E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82C1820A09700781E56 /* Foundation.framework */; };
 		FC40F82F1820A09700781E56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82E1820A09700781E56 /* CoreGraphics.framework */; };
 		FC40F8311820A09700781E56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F8301820A09700781E56 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Truth___Wallpaper_1920x1200_by_damnengine.jpg"; sourceTree = "<group>"; };
 		FC40F8291820A09700781E56 /* PicuReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicuReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40F82C1820A09700781E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC40F82E1820A09700781E56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 				FC40F8441820A09700781E56 /* PicuReferenceAppViewController.h */,
 				FC40F8451820A09700781E56 /* PicuReferenceAppViewController.m */,
 				FC40F83E1820A09700781E56 /* Main_iPhone.storyboard */,
+				EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */,
 				FC40F8411820A09700781E56 /* Main_iPad.storyboard */,
 				FC40F8331820A09700781E56 /* Supporting Files */,
 			);
@@ -235,6 +238,7 @@
 				FC40F8431820A09700781E56 /* Main_iPad.storyboard in Resources */,
 				FC40F8481820A09700781E56 /* Images.xcassets in Resources */,
 				FC40F8401820A09700781E56 /* Main_iPhone.storyboard in Resources */,
+				EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */,
 				FC40F8371820A09700781E56 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

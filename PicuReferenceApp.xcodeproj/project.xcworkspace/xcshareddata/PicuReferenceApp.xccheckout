@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9CB6A86D-D5CA-4B58-BAD7-A2C355CB69C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PicuReferenceApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>610883EB-0122-44B3-8A75-6C6DC04BE0B8</key>
+		<string>https://github.com/jakegub/PicuReferenceApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PicuReferenceApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>610883EB-0122-44B3-8A75-6C6DC04BE0B8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jakegub/PicuReferenceApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>610883EB-0122-44B3-8A75-6C6DC04BE0B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>610883EB-0122-44B3-8A75-6C6DC04BE0B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PicuReferenceApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
