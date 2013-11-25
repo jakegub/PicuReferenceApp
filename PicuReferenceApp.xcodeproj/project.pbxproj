@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED134D0618439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */; };
+		ED3D846218437F3400C907B5 /* Assessment.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845718437F3400C907B5 /* Assessment.png */; };
+		ED3D846318437F3400C907B5 /* CNSMeds.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845818437F3400C907B5 /* CNSMeds.png */; };
+		ED3D846418437F3400C907B5 /* CVMeds.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845918437F3400C907B5 /* CVMeds.png */; };
+		ED3D846518437F3400C907B5 /* Electrolytes.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845A18437F3400C907B5 /* Electrolytes.png */; };
+		ED3D846618437F3400C907B5 /* Intubation.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845B18437F3400C907B5 /* Intubation.png */; };
+		ED3D846718437F3400C907B5 /* NeuroEmergencies.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845C18437F3400C907B5 /* NeuroEmergencies.png */; };
+		ED3D846818437F3400C907B5 /* PEWS.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845D18437F3400C907B5 /* PEWS.png */; };
+		ED3D846918437F3400C907B5 /* Poisons.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845E18437F3400C907B5 /* Poisons.png */; };
+		ED3D846A18437F3400C907B5 /* RespiratoryEmergencies.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845F18437F3400C907B5 /* RespiratoryEmergencies.png */; };
+		ED3D846B18437F3400C907B5 /* Shock.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D846018437F3400C907B5 /* Shock.png */; };
+		ED3D846C18437F3400C907B5 /* Vitals.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D846118437F3400C907B5 /* Vitals.png */; };
 		EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */; };
 		FC40F82D1820A09700781E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82C1820A09700781E56 /* Foundation.framework */; };
 		FC40F82F1820A09700781E56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82E1820A09700781E56 /* CoreGraphics.framework */; };
@@ -36,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED134D0418439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicuReferenceAppNeuroEmergenciesViewController.h; sourceTree = "<group>"; };
+		ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicuReferenceAppNeuroEmergenciesViewController.m; sourceTree = "<group>"; };
+		ED3D845718437F3400C907B5 /* Assessment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Assessment.png; path = Images.xcassets/Assessment.png; sourceTree = "<group>"; };
+		ED3D845818437F3400C907B5 /* CNSMeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CNSMeds.png; path = Images.xcassets/CNSMeds.png; sourceTree = "<group>"; };
+		ED3D845918437F3400C907B5 /* CVMeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CVMeds.png; path = Images.xcassets/CVMeds.png; sourceTree = "<group>"; };
+		ED3D845A18437F3400C907B5 /* Electrolytes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Electrolytes.png; path = Images.xcassets/Electrolytes.png; sourceTree = "<group>"; };
+		ED3D845B18437F3400C907B5 /* Intubation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Intubation.png; path = Images.xcassets/Intubation.png; sourceTree = "<group>"; };
+		ED3D845C18437F3400C907B5 /* NeuroEmergencies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NeuroEmergencies.png; path = Images.xcassets/NeuroEmergencies.png; sourceTree = "<group>"; };
+		ED3D845D18437F3400C907B5 /* PEWS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PEWS.png; path = Images.xcassets/PEWS.png; sourceTree = "<group>"; };
+		ED3D845E18437F3400C907B5 /* Poisons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Poisons.png; path = Images.xcassets/Poisons.png; sourceTree = "<group>"; };
+		ED3D845F18437F3400C907B5 /* RespiratoryEmergencies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RespiratoryEmergencies.png; path = Images.xcassets/RespiratoryEmergencies.png; sourceTree = "<group>"; };
+		ED3D846018437F3400C907B5 /* Shock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shock.png; path = Images.xcassets/Shock.png; sourceTree = "<group>"; };
+		ED3D846118437F3400C907B5 /* Vitals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vitals.png; path = Images.xcassets/Vitals.png; sourceTree = "<group>"; };
 		EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Truth___Wallpaper_1920x1200_by_damnengine.jpg"; sourceTree = "<group>"; };
 		FC40F8291820A09700781E56 /* PicuReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicuReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40F82C1820A09700781E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,8 +145,9 @@
 				FC40F83C1820A09700781E56 /* PicuReferenceAppAppDelegate.m */,
 				FC40F8441820A09700781E56 /* PicuReferenceAppViewController.h */,
 				FC40F8451820A09700781E56 /* PicuReferenceAppViewController.m */,
+				ED134D0418439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.h */,
+				ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */,
 				FC40F83E1820A09700781E56 /* Main_iPhone.storyboard */,
-				EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */,
 				FC40F8411820A09700781E56 /* Main_iPad.storyboard */,
 				FC40F8331820A09700781E56 /* Supporting Files */,
 			);
@@ -131,6 +157,18 @@
 		FC40F8331820A09700781E56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED3D845718437F3400C907B5 /* Assessment.png */,
+				ED3D845818437F3400C907B5 /* CNSMeds.png */,
+				ED3D845918437F3400C907B5 /* CVMeds.png */,
+				ED3D845A18437F3400C907B5 /* Electrolytes.png */,
+				ED3D845B18437F3400C907B5 /* Intubation.png */,
+				ED3D845C18437F3400C907B5 /* NeuroEmergencies.png */,
+				ED3D845D18437F3400C907B5 /* PEWS.png */,
+				ED3D845E18437F3400C907B5 /* Poisons.png */,
+				ED3D845F18437F3400C907B5 /* RespiratoryEmergencies.png */,
+				ED3D846018437F3400C907B5 /* Shock.png */,
+				ED3D846118437F3400C907B5 /* Vitals.png */,
+				EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */,
 				FC40F8471820A09700781E56 /* Images.xcassets */,
 				FC40F8341820A09700781E56 /* PicuReferenceApp-Info.plist */,
 				FC40F8351820A09700781E56 /* InfoPlist.strings */,
@@ -235,11 +273,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3D846C18437F3400C907B5 /* Vitals.png in Resources */,
 				FC40F8431820A09700781E56 /* Main_iPad.storyboard in Resources */,
+				ED3D846718437F3400C907B5 /* NeuroEmergencies.png in Resources */,
+				ED3D846B18437F3400C907B5 /* Shock.png in Resources */,
+				ED3D846518437F3400C907B5 /* Electrolytes.png in Resources */,
+				ED3D846318437F3400C907B5 /* CNSMeds.png in Resources */,
 				FC40F8481820A09700781E56 /* Images.xcassets in Resources */,
+				ED3D846618437F3400C907B5 /* Intubation.png in Resources */,
+				ED3D846818437F3400C907B5 /* PEWS.png in Resources */,
 				FC40F8401820A09700781E56 /* Main_iPhone.storyboard in Resources */,
 				EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */,
 				FC40F8371820A09700781E56 /* InfoPlist.strings in Resources */,
+				ED3D846A18437F3400C907B5 /* RespiratoryEmergencies.png in Resources */,
+				ED3D846218437F3400C907B5 /* Assessment.png in Resources */,
+				ED3D846418437F3400C907B5 /* CVMeds.png in Resources */,
+				ED3D846918437F3400C907B5 /* Poisons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +310,7 @@
 				FC40F8391820A09700781E56 /* main.m in Sources */,
 				FC40F8461820A09700781E56 /* PicuReferenceAppViewController.m in Sources */,
 				FC40F83D1820A09700781E56 /* PicuReferenceAppAppDelegate.m in Sources */,
+				ED134D0618439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
