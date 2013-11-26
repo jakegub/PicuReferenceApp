@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PicuReferenceAppNeuroEmergenciesViewController : UIViewController
+@interface PicuReferenceAppNeuroEmergenciesViewController : UIViewController <UIScrollViewDelegate>
 {
     IBOutlet UIScrollView *scrollView;
     IBOutlet UIImageView *imageView;

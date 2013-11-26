@@ -10,6 +10,7 @@
 
 @interface PicuReferenceAppNeuroEmergenciesViewController ()
 
+
 @end
 
 @implementation PicuReferenceAppNeuroEmergenciesViewController
@@ -28,17 +29,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    UIImage * image = [UIImage imageNamed:@"NeuroEmergencies.png"];
-    
-    NSAssert(image, @"image must not be ni."
-             "Check that image is added to bundle"
-             " and that the filename matches the above.");
-    
-//    self->imageView.image = image;
-//    [self->imageView sizeToFit];
-//    
-//    self->scrollView.contentSize = image.size;
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,6 +39,25 @@
 
 - (void)viewDidLayoutSubviews {
     scrollView.contentSize = imageView.frame.size;
+}
+
+-(UIView *) viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return imageView;
+}
+
+- (void)scrollViewDidZoom:(UIScrollView *)scrllView
+{
+    UIView *subView = [scrllView.subviews objectAtIndex:0];
+    
+    CGFloat offsetX = (scrllView.bounds.size.width > scrllView.contentSize.width)?
+    (scrllView.bounds.size.width - scrllView.contentSize.width) * 0.5 : 0.0;
+    
+    CGFloat offsetY = (scrllView.bounds.size.height > scrllView.contentSize.height)?
+    (scrllView.bounds.size.height - scrllView.contentSize.height) * 0.5 : 0.0;
+    
+    subView.center = CGPointMake(scrllView.contentSize.width *0.5 + offsetX, scrllView.contentSize.height *0.5 + offsetY);   
+    
 }
 
 @end
