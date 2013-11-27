@@ -10,7 +10,6 @@
 
 @interface PicuReferenceAppNeuroEmergenciesViewController ()
 
-
 @end
 
 @implementation PicuReferenceAppNeuroEmergenciesViewController

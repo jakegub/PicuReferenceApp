@@ -35,6 +35,7 @@
 		FC40F8511820A09700781E56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F8301820A09700781E56 /* UIKit.framework */; };
 		FC40F8591820A09700781E56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC40F8571820A09700781E56 /* InfoPlist.strings */; };
 		FC40F85B1820A09700781E56 /* PicuReferenceAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40F85A1820A09700781E56 /* PicuReferenceAppTests.m */; };
+		FC95DB5118461B5100C268DA /* PicuReferenceAppScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95DB5018461B5100C268DA /* PicuReferenceAppScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		FC40F8561820A09700781E56 /* PicuReferenceAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicuReferenceAppTests-Info.plist"; sourceTree = "<group>"; };
 		FC40F8581820A09700781E56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC40F85A1820A09700781E56 /* PicuReferenceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicuReferenceAppTests.m; sourceTree = "<group>"; };
+		FC95DB4F18461B5100C268DA /* PicuReferenceAppScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicuReferenceAppScrollViewController.h; sourceTree = "<group>"; };
+		FC95DB5018461B5100C268DA /* PicuReferenceAppScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicuReferenceAppScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				ED134D0418439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.h */,
 				ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */,
 				FC40F83E1820A09700781E56 /* Main_iPhone.storyboard */,
+				FC95DB4F18461B5100C268DA /* PicuReferenceAppScrollViewController.h */,
+				FC95DB5018461B5100C268DA /* PicuReferenceAppScrollViewController.m */,
 				FC40F8411820A09700781E56 /* Main_iPad.storyboard */,
 				FC40F8331820A09700781E56 /* Supporting Files */,
 			);
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC95DB5118461B5100C268DA /* PicuReferenceAppScrollViewController.m in Sources */,
 				FC40F8391820A09700781E56 /* main.m in Sources */,
 				FC40F8461820A09700781E56 /* PicuReferenceAppViewController.m in Sources */,
 				FC40F83D1820A09700781E56 /* PicuReferenceAppAppDelegate.m in Sources */,
