@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED030E36184E2D7F00AB0E0B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED030E35184E2D7F00AB0E0B /* WebViewController.m */; };
 		ED134D0618439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */; };
 		ED3D846218437F3400C907B5 /* Assessment.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845718437F3400C907B5 /* Assessment.png */; };
 		ED3D846318437F3400C907B5 /* CNSMeds.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D845818437F3400C907B5 /* CNSMeds.png */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED030E34184E2D7F00AB0E0B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		ED030E35184E2D7F00AB0E0B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
 		ED134D0418439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicuReferenceAppNeuroEmergenciesViewController.h; sourceTree = "<group>"; };
 		ED134D0518439A1C00C55CCA /* PicuReferenceAppNeuroEmergenciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicuReferenceAppNeuroEmergenciesViewController.m; sourceTree = "<group>"; };
 		ED3D845718437F3400C907B5 /* Assessment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Assessment.png; path = Images.xcassets/Assessment.png; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				FC40F83E1820A09700781E56 /* Main_iPhone.storyboard */,
 				FC95DB4F18461B5100C268DA /* PicuReferenceAppScrollViewController.h */,
 				FC95DB5018461B5100C268DA /* PicuReferenceAppScrollViewController.m */,
+				ED030E34184E2D7F00AB0E0B /* WebViewController.h */,
+				ED030E35184E2D7F00AB0E0B /* WebViewController.m */,
 				FC40F8411820A09700781E56 /* Main_iPad.storyboard */,
 				FC40F8331820A09700781E56 /* Supporting Files */,
 			);
@@ -313,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC95DB5118461B5100C268DA /* PicuReferenceAppScrollViewController.m in Sources */,
+				ED030E36184E2D7F00AB0E0B /* WebViewController.m in Sources */,
 				FC40F8391820A09700781E56 /* main.m in Sources */,
 				FC40F8461820A09700781E56 /* PicuReferenceAppViewController.m in Sources */,
 				FC40F83D1820A09700781E56 /* PicuReferenceAppAppDelegate.m in Sources */,
