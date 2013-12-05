@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Dwx-3V-voM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mEy-mo-lwh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -482,7 +482,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="JzL-qQ-HwE" id="vcP-HK-mQh"/>
+                        <outlet property="webView" destination="JzL-qQ-HwE" id="Oj0-hg-MTf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6V4-8j-WwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -665,6 +665,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geb-ak-Cl8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="582" y="-139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dvo-of-xpC">
+            <objects>
+                <viewController id="mEy-mo-lwh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w0J-tH-Isb"/>
+                        <viewControllerLayoutGuide type="bottom" id="DYF-3d-xPt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8lh-rb-K3G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPH-NN-YKC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="518" id="0vi-3W-Hy3"/>
+                                </constraints>
+                                <mutableString key="text">This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkb-qW-Asv">
+                                <rect key="frame" x="20" y="351" width="280" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="I Agree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dwx-3V-voM" kind="modal" id="gzg-QU-5Pj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CPH-NN-YKC" firstAttribute="top" secondItem="8lh-rb-K3G" secondAttribute="top" constant="50" id="YIS-RH-IUr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HfB-1b-ERW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1196" y="-1334"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d4U-Jm-vbv">

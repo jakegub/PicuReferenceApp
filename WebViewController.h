@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewController : UIViewController {
-    
-    __weak IBOutlet UIWebView *webView;
-    
-}
-@property (nonatomic, retain) UIWebView *webView;
+@interface WebViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
