@@ -256,7 +256,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CVMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="xSf-1L-wCL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDCVMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="xSf-1L-wCL">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -300,11 +300,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CNSMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="ycN-Fk-PxL">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HDCNSMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="ycN-Fk-PxL">
                                         <rect key="frame" x="-1" y="0.0" width="320" height="600"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="600" id="aRS-4L-e1a"/>
+                                            <constraint firstAttribute="width" constant="320" id="o0L-p4-RnW"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ycN-Fk-PxL" secondAttribute="trailing" constant="1" id="MZf-Sh-ZjR"/>
+                                    <constraint firstItem="ycN-Fk-PxL" firstAttribute="top" secondItem="OmV-6d-WEo" secondAttribute="top" id="xkC-uK-8HY"/>
+                                    <constraint firstItem="ycN-Fk-PxL" firstAttribute="leading" secondItem="OmV-6d-WEo" secondAttribute="leading" constant="-1" id="yNi-F1-dcw"/>
+                                    <constraint firstAttribute="bottom" secondItem="ycN-Fk-PxL" secondAttribute="bottom" constant="-32" id="zQg-cv-QFw"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="dG9-iq-pGv" id="cZE-rI-vdE"/>
                                 </connections>
@@ -312,10 +322,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OmV-6d-WEo" firstAttribute="leading" secondItem="3dw-zB-5Vc" secondAttribute="leading" id="4M9-Vp-4GS"/>
-                            <constraint firstAttribute="trailing" secondItem="OmV-6d-WEo" secondAttribute="trailing" id="FFF-DR-Nlh"/>
-                            <constraint firstAttribute="bottom" secondItem="OmV-6d-WEo" secondAttribute="bottom" id="Qpz-FV-xIf"/>
-                            <constraint firstItem="OmV-6d-WEo" firstAttribute="top" secondItem="3dw-zB-5Vc" secondAttribute="top" id="VDm-mK-nW6"/>
+                            <constraint firstAttribute="bottom" secondItem="OmV-6d-WEo" secondAttribute="bottom" id="HYr-rv-u6e"/>
+                            <constraint firstItem="OmV-6d-WEo" firstAttribute="top" secondItem="3dw-zB-5Vc" secondAttribute="top" id="boi-2v-M8D"/>
+                            <constraint firstItem="OmV-6d-WEo" firstAttribute="leading" secondItem="3dw-zB-5Vc" secondAttribute="leading" id="c56-RL-f2e"/>
+                            <constraint firstAttribute="trailing" secondItem="OmV-6d-WEo" secondAttribute="trailing" id="phO-Si-ued"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CNS Medications" id="tlR-MU-cSb"/>
@@ -344,7 +354,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vitals.png" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-68-cQT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDVitals.png" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-68-cQT">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="574"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -770,14 +780,14 @@
     </scenes>
     <resources>
         <image name="Assessment.png" width="914" height="1583"/>
-        <image name="CNSMeds.png" width="908" height="1563"/>
-        <image name="CVMeds.png" width="908" height="1524"/>
         <image name="Electrolytes.png" width="908" height="1545"/>
+        <image name="HDCNSMeds.png" width="356" height="651"/>
+        <image name="HDCVMeds.png" width="359" height="588"/>
+        <image name="HDVitals.png" width="350" height="554"/>
         <image name="Intubation.png" width="923" height="1572"/>
         <image name="NeuroEmergencies.png" width="913" height="1568"/>
         <image name="PEWS.png" width="929" height="1595"/>
         <image name="Poisons.png" width="899" height="1443"/>
-        <image name="Vitals.png" width="880" height="1584"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

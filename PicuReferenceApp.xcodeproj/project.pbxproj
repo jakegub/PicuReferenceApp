@@ -21,6 +21,16 @@
 		ED3D846B18437F3400C907B5 /* Shock.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D846018437F3400C907B5 /* Shock.png */; };
 		ED3D846C18437F3400C907B5 /* Vitals.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3D846118437F3400C907B5 /* Vitals.png */; };
 		EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */; };
+		EDAC6EF61850D6DA00780E4D /* HDAssessment.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EEC1850D6D900780E4D /* HDAssessment.png */; };
+		EDAC6EF71850D6DA00780E4D /* HDCNSMeds.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EED1850D6D900780E4D /* HDCNSMeds.png */; };
+		EDAC6EF81850D6DA00780E4D /* HDCVMeds.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EEE1850D6D900780E4D /* HDCVMeds.png */; };
+		EDAC6EF91850D6DA00780E4D /* HDElectrolytes.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EEF1850D6D900780E4D /* HDElectrolytes.png */; };
+		EDAC6EFA1850D6DA00780E4D /* HDIntubation.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF01850D6D900780E4D /* HDIntubation.png */; };
+		EDAC6EFB1850D6DA00780E4D /* HDNeuroEmergencies.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF11850D6D900780E4D /* HDNeuroEmergencies.png */; };
+		EDAC6EFC1850D6DA00780E4D /* HDPEWS.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF21850D6D900780E4D /* HDPEWS.png */; };
+		EDAC6EFD1850D6DA00780E4D /* HDRespiratoryEmergencies.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF31850D6DA00780E4D /* HDRespiratoryEmergencies.png */; };
+		EDAC6EFE1850D6DA00780E4D /* HDShock.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF41850D6DA00780E4D /* HDShock.png */; };
+		EDAC6EFF1850D6DA00780E4D /* HDVitals.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC6EF51850D6DA00780E4D /* HDVitals.png */; };
 		FC40F82D1820A09700781E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82C1820A09700781E56 /* Foundation.framework */; };
 		FC40F82F1820A09700781E56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F82E1820A09700781E56 /* CoreGraphics.framework */; };
 		FC40F8311820A09700781E56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40F8301820A09700781E56 /* UIKit.framework */; };
@@ -66,6 +76,16 @@
 		ED3D846018437F3400C907B5 /* Shock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shock.png; path = Images.xcassets/Shock.png; sourceTree = "<group>"; };
 		ED3D846118437F3400C907B5 /* Vitals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vitals.png; path = Images.xcassets/Vitals.png; sourceTree = "<group>"; };
 		EDA07EA2183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Truth___Wallpaper_1920x1200_by_damnengine.jpg"; sourceTree = "<group>"; };
+		EDAC6EEC1850D6D900780E4D /* HDAssessment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDAssessment.png; sourceTree = "<group>"; };
+		EDAC6EED1850D6D900780E4D /* HDCNSMeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDCNSMeds.png; sourceTree = "<group>"; };
+		EDAC6EEE1850D6D900780E4D /* HDCVMeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDCVMeds.png; sourceTree = "<group>"; };
+		EDAC6EEF1850D6D900780E4D /* HDElectrolytes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDElectrolytes.png; sourceTree = "<group>"; };
+		EDAC6EF01850D6D900780E4D /* HDIntubation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDIntubation.png; sourceTree = "<group>"; };
+		EDAC6EF11850D6D900780E4D /* HDNeuroEmergencies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDNeuroEmergencies.png; sourceTree = "<group>"; };
+		EDAC6EF21850D6D900780E4D /* HDPEWS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDPEWS.png; sourceTree = "<group>"; };
+		EDAC6EF31850D6DA00780E4D /* HDRespiratoryEmergencies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDRespiratoryEmergencies.png; sourceTree = "<group>"; };
+		EDAC6EF41850D6DA00780E4D /* HDShock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDShock.png; sourceTree = "<group>"; };
+		EDAC6EF51850D6DA00780E4D /* HDVitals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDVitals.png; sourceTree = "<group>"; };
 		FC40F8291820A09700781E56 /* PicuReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicuReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40F82C1820A09700781E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC40F82E1820A09700781E56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -167,6 +187,16 @@
 		FC40F8331820A09700781E56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDAC6EEC1850D6D900780E4D /* HDAssessment.png */,
+				EDAC6EED1850D6D900780E4D /* HDCNSMeds.png */,
+				EDAC6EEE1850D6D900780E4D /* HDCVMeds.png */,
+				EDAC6EEF1850D6D900780E4D /* HDElectrolytes.png */,
+				EDAC6EF01850D6D900780E4D /* HDIntubation.png */,
+				EDAC6EF11850D6D900780E4D /* HDNeuroEmergencies.png */,
+				EDAC6EF21850D6D900780E4D /* HDPEWS.png */,
+				EDAC6EF31850D6DA00780E4D /* HDRespiratoryEmergencies.png */,
+				EDAC6EF41850D6DA00780E4D /* HDShock.png */,
+				EDAC6EF51850D6DA00780E4D /* HDVitals.png */,
 				ED3D845718437F3400C907B5 /* Assessment.png */,
 				ED3D845818437F3400C907B5 /* CNSMeds.png */,
 				ED3D845918437F3400C907B5 /* CVMeds.png */,
@@ -283,20 +313,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAC6EF91850D6DA00780E4D /* HDElectrolytes.png in Resources */,
+				EDAC6EFA1850D6DA00780E4D /* HDIntubation.png in Resources */,
+				EDAC6EF81850D6DA00780E4D /* HDCVMeds.png in Resources */,
 				ED3D846C18437F3400C907B5 /* Vitals.png in Resources */,
 				FC40F8431820A09700781E56 /* Main_iPad.storyboard in Resources */,
 				ED3D846718437F3400C907B5 /* NeuroEmergencies.png in Resources */,
+				EDAC6EFD1850D6DA00780E4D /* HDRespiratoryEmergencies.png in Resources */,
 				ED3D846B18437F3400C907B5 /* Shock.png in Resources */,
+				EDAC6EFB1850D6DA00780E4D /* HDNeuroEmergencies.png in Resources */,
 				ED3D846518437F3400C907B5 /* Electrolytes.png in Resources */,
+				EDAC6EFF1850D6DA00780E4D /* HDVitals.png in Resources */,
 				ED3D846318437F3400C907B5 /* CNSMeds.png in Resources */,
 				FC40F8481820A09700781E56 /* Images.xcassets in Resources */,
+				EDAC6EF71850D6DA00780E4D /* HDCNSMeds.png in Resources */,
 				ED3D846618437F3400C907B5 /* Intubation.png in Resources */,
 				ED3D846818437F3400C907B5 /* PEWS.png in Resources */,
 				FC40F8401820A09700781E56 /* Main_iPhone.storyboard in Resources */,
 				EDA07EA3183FB072003D6980 /* Truth___Wallpaper_1920x1200_by_damnengine.jpg in Resources */,
 				FC40F8371820A09700781E56 /* InfoPlist.strings in Resources */,
+				EDAC6EFE1850D6DA00780E4D /* HDShock.png in Resources */,
 				ED3D846A18437F3400C907B5 /* RespiratoryEmergencies.png in Resources */,
+				EDAC6EFC1850D6DA00780E4D /* HDPEWS.png in Resources */,
 				ED3D846218437F3400C907B5 /* Assessment.png in Resources */,
+				EDAC6EF61850D6DA00780E4D /* HDAssessment.png in Resources */,
 				ED3D846418437F3400C907B5 /* CVMeds.png in Resources */,
 				ED3D846918437F3400C907B5 /* Poisons.png in Resources */,
 			);
