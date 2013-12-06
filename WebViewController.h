@@ -12,4 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
+- (void)loadDocument:(NSString *)documentName;
+
 @end

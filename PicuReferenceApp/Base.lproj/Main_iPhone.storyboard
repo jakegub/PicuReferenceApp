@@ -76,7 +76,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <segue destination="dIL-i9-9hc" kind="push" id="lxU-M7-GDx"/>
+                                            <segue destination="WMx-RV-tdf" kind="push" id="He9-cL-bKs"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ylY-sm-O1G" style="IBUITableViewCellStyleDefault" id="c1y-8z-rSp">
@@ -212,7 +212,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Poisoning" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a0q-jQ-ATa">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Shock" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a0q-jQ-ATa">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -256,9 +256,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDCVMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="xSf-1L-wCL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CVMeds1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="xSf-1L-wCL">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -284,6 +285,45 @@
             </objects>
             <point key="canvasLocation" x="566" y="-846"/>
         </scene>
+        <!--Picu Reference App Scroll View Controller-->
+        <scene sceneID="86x-ot-uLr">
+            <objects>
+                <viewController id="WMx-RV-tdf" customClass="PicuReferenceAppScrollViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oax-tx-05z"/>
+                        <viewControllerLayoutGuide type="bottom" id="xBg-5R-axf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qhM-tQ-pjw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-Cl-pnW">
+                                <rect key="frame" x="0.0" y="43" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intubation1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="MgH-ti-8T8">
+                                        <rect key="frame" x="-8" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <connections>
+                                    <outlet property="delegate" destination="WMx-RV-tdf" id="PJg-Sz-b28"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E0D-KI-W8T"/>
+                    <connections>
+                        <outlet property="imageView" destination="MgH-ti-8T8" id="uXd-DJ-pVF"/>
+                        <outlet property="scrollView" destination="pjp-Cl-pnW" id="yHw-zk-ff7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzu-0Z-xer" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176" y="-1545"/>
+        </scene>
         <!--Picu Reference App Scroll View Controller - CNS Medications-->
         <scene sceneID="9Sh-95-btw">
             <objects>
@@ -300,9 +340,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HDCNSMeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="ycN-Fk-PxL">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CNSMeds1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="ycN-Fk-PxL">
                                         <rect key="frame" x="-1" y="0.0" width="320" height="600"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="600" id="aRS-4L-e1a"/>
                                             <constraint firstAttribute="width" constant="320" id="o0L-p4-RnW"/>
@@ -354,9 +395,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDVitals.png" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-68-cQT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vitals1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-68-cQT">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="574"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -398,9 +440,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Assessment.png" translatesAutoresizingMaskIntoConstraints="NO" id="goT-gF-TKe">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Assessment1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="goT-gF-TKe">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="765"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -426,7 +469,7 @@
             </objects>
             <point key="canvasLocation" x="-258" y="-133"/>
         </scene>
-        <!--Picu Reference App Scroll View Controller - Poisonings-->
+        <!--Picu Reference App Scroll View Controller - Shock-->
         <scene sceneID="jVp-3Y-Av4">
             <objects>
                 <viewController id="8Kr-SV-BnB" customClass="PicuReferenceAppScrollViewController" sceneMemberID="viewController">
@@ -442,9 +485,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Poisons.png" translatesAutoresizingMaskIntoConstraints="NO" id="V0J-YQ-eXg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shock1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="V0J-YQ-eXg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="632"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -460,7 +504,7 @@
                             <constraint firstAttribute="bottom" secondItem="HRV-ie-0bX" secondAttribute="bottom" id="hFT-7n-VSH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Poisonings" id="BMt-gw-OfQ"/>
+                    <navigationItem key="navigationItem" title="Shock" id="BMt-gw-OfQ"/>
                     <connections>
                         <outlet property="imageView" destination="V0J-YQ-eXg" id="fC8-Tv-Ogi"/>
                         <outlet property="scrollView" destination="HRV-ie-0bX" id="9GO-Cb-Uw2"/>
@@ -515,9 +559,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PEWS.png" translatesAutoresizingMaskIntoConstraints="NO" id="fUE-Nx-sBs">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PEWS1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="fUE-Nx-sBs">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -559,9 +604,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NeuroEmergencies.png" translatesAutoresizingMaskIntoConstraints="NO" id="6om-tV-TZn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NeuroEmergencies1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="6om-tV-TZn">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="663"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="0.5"/>
@@ -604,9 +650,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="336" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Electrolytes.png" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-aV-J43">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Electrolytes1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-aV-J43">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -648,9 +695,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intubation.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wkc-aB-yAA">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RespiratoryEmergencies1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wkc-aB-yAA">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -695,7 +743,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="518" id="0vi-3W-Hy3"/>
                                 </constraints>
-                                <mutableString key="text">This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS</mutableString>
+                                <string key="text">This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -755,9 +803,10 @@
                                 <rect key="frame" x="0.0" y="47" width="328" height="521"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Electrolytes.png" translatesAutoresizingMaskIntoConstraints="NO" id="58n-vp-kcs">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Electrolytes1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="58n-vp-kcs">
                                         <rect key="frame" x="4" y="0.0" width="320" height="521"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
                                 <connections>
@@ -777,24 +826,77 @@
             </objects>
             <point key="canvasLocation" x="182" y="-140"/>
         </scene>
+        <!--Picu Reference App Scroll View Controller - CNS Medications-->
+        <scene sceneID="ogD-CC-oQo">
+            <objects>
+                <viewController id="49b-bK-3GG" customClass="PicuReferenceAppScrollViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fEa-bQ-gQn"/>
+                        <viewControllerLayoutGuide type="bottom" id="mJe-cy-Bix"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EVV-an-h3m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWX-3d-6fB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CNSMeds1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="MKH-2f-UOP">
+                                        <rect key="frame" x="-1" y="0.0" width="320" height="600"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="6xw-gU-w5k"/>
+                                            <constraint firstAttribute="height" constant="600" id="TbQ-cr-RtQ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="MKH-2f-UOP" secondAttribute="bottom" constant="-32" id="G5m-Pr-FfV"/>
+                                    <constraint firstItem="MKH-2f-UOP" firstAttribute="leading" secondItem="lWX-3d-6fB" secondAttribute="leading" constant="-1" id="PWL-ON-1lX"/>
+                                    <constraint firstAttribute="trailing" secondItem="MKH-2f-UOP" secondAttribute="trailing" constant="1" id="ZvP-9l-jZq"/>
+                                    <constraint firstItem="MKH-2f-UOP" firstAttribute="top" secondItem="lWX-3d-6fB" secondAttribute="top" id="iDP-Cy-dyo"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="49b-bK-3GG" id="hSm-1L-fC1"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lWX-3d-6fB" firstAttribute="top" secondItem="EVV-an-h3m" secondAttribute="top" id="37H-nc-w10"/>
+                            <constraint firstAttribute="trailing" secondItem="lWX-3d-6fB" secondAttribute="trailing" id="5KX-jX-2XG"/>
+                            <constraint firstAttribute="bottom" secondItem="lWX-3d-6fB" secondAttribute="bottom" id="ZJ6-Uu-9aW"/>
+                            <constraint firstItem="lWX-3d-6fB" firstAttribute="leading" secondItem="EVV-an-h3m" secondAttribute="leading" id="qiJ-H8-d1G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="CNS Medications" id="fPw-ny-MLH"/>
+                    <connections>
+                        <outlet property="imageView" destination="MKH-2f-UOP" id="TqM-VL-kcd"/>
+                        <outlet property="scrollView" destination="lWX-3d-6fB" id="cYO-q7-MTM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y5R-uL-7f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176" y="-802"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Assessment.png" width="914" height="1583"/>
-        <image name="Electrolytes.png" width="908" height="1545"/>
-        <image name="HDCNSMeds.png" width="356" height="651"/>
-        <image name="HDCVMeds.png" width="359" height="588"/>
-        <image name="HDVitals.png" width="350" height="554"/>
-        <image name="Intubation.png" width="923" height="1572"/>
-        <image name="NeuroEmergencies.png" width="913" height="1568"/>
-        <image name="PEWS.png" width="929" height="1595"/>
-        <image name="Poisons.png" width="899" height="1443"/>
+        <image name="Assessment1000.png" width="3624" height="6500"/>
+        <image name="CNSMeds1000.png" width="3624" height="6500"/>
+        <image name="CVMeds1000.png" width="3624" height="6500"/>
+        <image name="Electrolytes1000.png" width="3624" height="6500"/>
+        <image name="Intubation1000.png" width="3624" height="6500"/>
+        <image name="NeuroEmergencies1000.png" width="3624" height="6500"/>
+        <image name="PEWS1000.png" width="3624" height="6500"/>
+        <image name="RespiratoryEmergencies1000.png" width="3624" height="6500"/>
+        <image name="Shock1000.png" width="3624" height="6500"/>
+        <image name="Vitals1000.png" width="3279" height="5190"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="lxU-M7-GDx"/>
-    </inferredMetricsTieBreakers>
 </document>

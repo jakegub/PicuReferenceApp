@@ -27,12 +27,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self loadDocument:@"PicuPage01"];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)loadDocument:(NSString *)documentName
+{
+    NSString *docPath = [[NSBundle mainBundle] pathForResource:documentName ofType:@"doc"];
+    self.webView.scalesPageToFit = YES; //PDF page should be scaled to display whole page in screen
+    self.webView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+    [self.view addSubview:self.webView];
+    NSURL *docURL = [NSURL fileURLWithPath:docPath];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:docURL]];
 }
 
 @end
