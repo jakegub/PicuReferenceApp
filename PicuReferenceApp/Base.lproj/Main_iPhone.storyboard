@@ -541,7 +541,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6V4-8j-WwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="1185"/>
+            <point key="canvasLocation" x="-474" y="1251"/>
         </scene>
         <!--Picu Reference App Scroll View Controller - PEWS-->
         <scene sceneID="0vm-uU-6Xr">
