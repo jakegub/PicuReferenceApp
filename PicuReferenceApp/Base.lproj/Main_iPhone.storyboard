@@ -226,6 +226,27 @@
                                             <segue destination="8Kr-SV-BnB" kind="push" id="7Lv-aS-MWl"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="scE-nS-Ajc" style="IBUITableViewCellStyleDefault" id="bUx-np-kUE">
+                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bUx-np-kUE" id="a6x-aR-0m2">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Don't Press Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="scE-nS-Ajc">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="FcG-kn-GnF" kind="push" id="3MT-0c-c0F"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -535,13 +556,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="4GT-aJ-4q5"/>
                     <connections>
                         <outlet property="webView" destination="JzL-qQ-HwE" id="Oj0-hg-MTf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6V4-8j-WwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-474" y="1251"/>
+            <point key="canvasLocation" x="-794" y="627"/>
         </scene>
         <!--Picu Reference App Scroll View Controller - PEWS-->
         <scene sceneID="0vm-uU-6Xr">
@@ -736,18 +758,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPH-NN-YKC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPH-NN-YKC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="518" id="0vi-3W-Hy3"/>
-                                </constraints>
                                 <string key="text">This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkb-qW-Asv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkb-qW-Asv">
                                 <rect key="frame" x="20" y="351" width="280" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -761,7 +780,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="CPH-NN-YKC" firstAttribute="top" secondItem="8lh-rb-K3G" secondAttribute="top" constant="50" id="YIS-RH-IUr"/>
+                            <constraint firstItem="CPH-NN-YKC" firstAttribute="centerX" secondItem="xkb-qW-Asv" secondAttribute="centerX" id="J3w-ke-mPi"/>
+                            <constraint firstAttribute="trailing" secondItem="xkb-qW-Asv" secondAttribute="trailing" constant="20" symbolic="YES" id="LjV-9v-hvB"/>
+                            <constraint firstItem="DYF-3d-xPt" firstAttribute="top" secondItem="xkb-qW-Asv" secondAttribute="bottom" constant="132" id="MwG-Wz-qB8"/>
+                            <constraint firstAttribute="bottom" secondItem="CPH-NN-YKC" secondAttribute="bottom" id="VVp-Kt-BzG"/>
+                            <constraint firstItem="xkb-qW-Asv" firstAttribute="leading" secondItem="8lh-rb-K3G" secondAttribute="leading" constant="20" symbolic="YES" id="WnK-Ms-GZu"/>
+                            <constraint firstItem="xkb-qW-Asv" firstAttribute="top" secondItem="w0J-tH-Isb" secondAttribute="bottom" constant="331" id="tXE-jb-aBz"/>
+                            <constraint firstItem="CPH-NN-YKC" firstAttribute="leading" secondItem="8lh-rb-K3G" secondAttribute="leading" id="txz-et-eSD"/>
+                            <constraint firstItem="CPH-NN-YKC" firstAttribute="top" secondItem="8lh-rb-K3G" secondAttribute="top" id="war-lb-UUG"/>
                         </constraints>
                     </view>
                 </viewController>
