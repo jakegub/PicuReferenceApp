@@ -226,27 +226,6 @@
                                             <segue destination="8Kr-SV-BnB" kind="push" id="7Lv-aS-MWl"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="scE-nS-Ajc" style="IBUITableViewCellStyleDefault" id="bUx-np-kUE">
-                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bUx-np-kUE" id="a6x-aR-0m2">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Don't Press Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="scE-nS-Ajc">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="FcG-kn-GnF" kind="push" id="3MT-0c-c0F"/>
-                                        </connections>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -319,11 +298,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-Cl-pnW">
-                                <rect key="frame" x="0.0" y="43" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="611"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intubation1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="MgH-ti-8T8">
-                                        <rect key="frame" x="-8" y="0.0" width="320" height="568"/>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intubation1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="MgH-ti-8T8">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="631"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
@@ -763,7 +742,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS</string>
+                                <string key="text"> This app is intended only to provide a source of quick reference.  It is not intended, designed, or appropriate for making medical decisions or for dictating care of patients.  All decisions should be made by a licensed practitioner of medicine.  For questions or comments please feel free to email the developer.  Data taken with permission from information provided by: Dr. Renuka Mehta, MBBS, DCH, MRCP, FAAP Kelley R. Norris, PharmD, BCPS at Georgia Regents University of Augusta and the Medical College of Georgia.  Developed by: Jacob Eichenberger MD </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
